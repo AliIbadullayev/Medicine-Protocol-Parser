@@ -4,7 +4,7 @@
 
 
 <web-app>
-    <display-name>cargo-deploy</display-name>
+    <display-name>Medicine-Protocol-Parser</display-name>
     <servlet>
         <servlet-name>ClientServlet</servlet-name>
         <servlet-class>org.testorg.client.servlet.ClientServlet</servlet-class>

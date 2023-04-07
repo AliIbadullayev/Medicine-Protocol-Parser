@@ -1,4 +1,4 @@
-let socket = new WebSocket("ws://localhost:8080/alibaba/websocket");
+let socket = new WebSocket("wss://f1-hack.ru:8443/ali-ibad/websocket");
 
 socket.onmessage = function(event) {
     var json = JSON.parse(event.data);

@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.testorg</groupId>
-    <artifactId>client</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>ali</artifactId>
+    <version>ibad</version>
     <packaging>war</packaging>
 
     <properties>
