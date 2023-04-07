@@ -1,5 +1,8 @@
 package org.testorg.client.pojo;
 
+import java.sql.Timestamp;
+import java.time.OffsetDateTime;
+
 public class Observation {
     private Long id;
     private Long patient_id;
@@ -8,6 +11,16 @@ public class Observation {
     private int sat;
     private float co2_insp;
     private float co2_exp;
+    private Timestamp observation_time;
+
+    public Timestamp getObservation_time() {
+        return observation_time;
+    }
+
+    public void setObservation_time(Timestamp observation_time) {
+        this.observation_time = observation_time;
+    }
+
 
     public Long getId() {
         return id;

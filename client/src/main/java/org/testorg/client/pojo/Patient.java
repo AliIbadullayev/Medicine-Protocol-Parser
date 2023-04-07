@@ -3,17 +3,17 @@ package org.testorg.client.pojo;
 import java.util.Date;
 
 public class Patient {
-    private String snils;
+    private Long snils;
     private String name;
     private String surname;
     private Date birth;
 
 
-    public String getSnils() {
+    public Long getSnils() {
         return snils;
     }
 
-    public void setSnils(String snils) {
+    public void setSnils(Long snils) {
         this.snils = snils;
     }
 

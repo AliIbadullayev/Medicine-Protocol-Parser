@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+
+<web-app>
+    <display-name>cargo-deploy</display-name>
+    <servlet>
+        <servlet-name>ClientServlet</servlet-name>
+        <servlet-class>org.testorg.client.servlet.ClientServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ClientServlet</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,25 @@
+.patient > div {
+    display: flex;
+    justify-content: space-between;
+    width: 22vw;
+}
+
+.patient > div > .text {
+    font-weight: bold;
+}
+
+.observation > div > .text {
+    font-weight: bold;
+}
+
+.observation > div {
+    display: flex;
+    justify-content: space-between;
+    width: 22vw;
+}
+
+body {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
