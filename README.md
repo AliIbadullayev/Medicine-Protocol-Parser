@@ -1,8 +1,5 @@
 # Medicine-Protocol-Parser
 
-Размещенный экземпляр выполненного тестового задания на сервере \
-https://f1-hack.ru:8443/ali-ibad/
-
 ### Задание 1
 ```
 (POSTGRESQL, MySQL)
